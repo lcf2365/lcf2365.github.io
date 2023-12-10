@@ -1,0 +1,190 @@
+main {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.main-content {
+    padding: 20px;
+}
+
+header {
+    background-color: #fff; /* Set your desired background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #333;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: antiquewhite;
+}
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: #f26c4f;
+}
+h2 {
+  color: #f26c4f;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.logo-container {
+    max-width: 100px; /* Set the maximum width for your small logo */
+}
+
+.logo-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+nav a.active {
+    font-weight: bold; /* Set your desired font weight for the active link */
+    color: #ff9900; /* Set your desired text color for the active link */
+}
+nav {
+    background-color: #444;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+li {
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+nav a:active {
+    background-color: #777;
+}
+
+nav a.active {
+    font-weight: bold;
+    color: #ff9900;
+}
+.horizontal-menu {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove any default padding */
+}
+
+.horizontal-menu li {
+    display: inline; /* Display list items in a horizontal line */
+    margin-right: 10px; /* Add spacing between items, adjust as needed */
+}
+article {
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.product-of-the-week {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.product-info {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+}
+.product-of-the-week {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.product {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.product img {
+    max-width: 100%;
+}
+
+.reasons-to-buy {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.reason {
+    text-align: center;
+    width: 45%;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+h3 {
+    color: #333;
+    font-size: 20px;
+}
+
+p {
+    color: #666;
+    line-height: 1.4;
+}
+h2 {
+    color: #f26c4f;
+}

@@ -1,0 +1,156 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: #f26c4f;
+}
+h2 {
+  color: #f26c4f;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: antiquewhite;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    background-color: #fff; /* Set your desired background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #333;
+}
+
+.logo-container {
+    max-width: 100px; /* Set the maximum width for your small logo */
+}
+
+.logo-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+nav a.active {
+    font-weight: bold; /* Set your desired font weight for the active link */
+    color: #ff9900; /* Set your desired text color for the active link */
+}
+nav {
+    background-color: #444;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+li {
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+nav a:active {
+    background-color: #777;
+}
+
+nav a.active {
+    font-weight: bold;
+    color: #ff9900;
+}
+
+/* Main content styles */
+main {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.horizontal-menu {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove any default padding */
+}
+
+.horizontal-menu li {
+    display: inline; /* Display list items in a horizontal line */
+    margin-right: 10px; /* Add spacing between items, adjust as needed */
+}
+.main-content {
+    padding: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+@media only screen and (max-width: 600px) {
+    /* Mobile styles */
+    .about-content section {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Tablet styles */
+    .about-content section {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    /* Desktop styles */
+    .about-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .about-content section {
+        flex: 0 0 calc(33.33% - 20px);
+        margin-bottom: 40px;
+    }
+}
+

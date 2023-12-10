@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!-- Created by [Swetha Macha], Student Number: [C0914759] -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/contact.css">
+    <title>Contact Us - Roast Crafters</title>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="Images/rc.jpeg" alt="Roast Crafters Logo">
+            </a>
+        </div>
+        <h1>THE ROAST CRAFTERS</h1>
+		<caption>"Where Every Meal Begins"</caption>
+       
+		
+        <nav>
+            <ul class="horizontal-menu">
+                <li><a href="index.html">Home</a></li>
+				<li><a href="about.html">about</a></li>
+                <li><a href="team.html">team</a></li>
+				<li><a href="specials.html">specials</a></li>
+				<li><a href="training.html">training</a></li>
+				<li><a href="media.html">media</a></li>
+				<li><a href="faqs.html">faqs</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-content">
+        <h1>Contact Us</h1>
+
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <ol>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </li>
+                    <li>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </li>
+                  
+                </ol>
+            </fieldset>
+
+            <fieldset>
+                <legend>Message</legend>
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" placeholder="Type your message here..." rows="6" required></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Additional Information</legend>
+                <ol>
+                    <li>
+                        <label for="category">Category:</label>
+                        <select id="category" name="category" required>
+                            <option value="general">General Inquiry</option>
+                            <option value="support">Technical Support</option>
+                            <option value="partnership">Partnership Opportunities</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label>Subscribe to Newsletter:</label>
+                        <input type="radio" id="subscribeYes" name="subscribe" value="yes" checked>
+                        <label for="subscribeYes">Yes</label>
+                        <input type="radio" id="subscribeNo" name="subscribe" value="no">
+                        <label for="subscribeNo">No</label>
+                    </li>
+                </ol>
+            </fieldset>
+
+            <div class="form-buttons">
+                <button type="submit">Submit Request</button>
+                <button type="reset">Reset Form</button>
+            </div>
+        </form>
+
+    </div>
+    
+
+    
+
+    <footer>
+    <p>
+        &copy; Copyright 2099. All Rights Reserved.<br>
+        <a href="mailto:info@roastcrafters.com">Request information</a><br>
+        Swetha Macha&nbsp;&nbsp; C0914759
+    </p>
+</footer>
+</body>
+</html>
